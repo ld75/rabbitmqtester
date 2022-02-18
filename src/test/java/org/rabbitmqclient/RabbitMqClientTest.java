@@ -16,7 +16,7 @@ public class RabbitMqClientTest {
     {
         String queuename = "hello";
         String hostname = "localhost";
-        int port = 5672;
+        int port = 5671;
         String message = "Hello World!";
         RabbitMqClient rabbitMqClient = new RabbitMqClient();
         rabbitMqClient.sendmessage(hostname, port, queuename, message);

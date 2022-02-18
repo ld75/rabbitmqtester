@@ -19,3 +19,7 @@ le jar est sous /rabbitmqclient/out/artifacts/rabbitmqclient_jar/rabbitmqclient.
 (paramètres: port, hostname,queue,message)
 
 ```java -jar rabbitmqclient.jar 5671 localhost maqueue bonjour```
+
+MODE STANDALONE
+javac -cp ../../../lib/amqp-client-5.7.1.jar TestStandaloneClass.java
+java -cp ../../../lib/amqp-client-5.7.1.jar:. TestStandaloneClass
